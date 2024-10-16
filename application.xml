@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+	
+	<id>ShoeBox</id> 
+	<version>1.00</version> 
+	<filename>ShoeBox</filename> 
+	
+	<name>ShoeBox</name> 
+	<description>Multi purpose drag and drop toolbox</description> 
+	<copyright>2011 Hendrik-Jan Schoenmaker</copyright> 
+	
+	<initialWindow> 
+		<title>ShoeBox</title> 
+		<content>DropletBox.swf</content> 
+		<systemChrome>none</systemChrome> 
+		<transparent>true</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 
+	<icon>
+		<image16x16>ico_16x16.png</image16x16>
+		<image32x32>ico_32x32.png</image32x32>
+	</icon>
+	<!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
